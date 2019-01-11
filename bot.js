@@ -6,17 +6,11 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'ping') {
+  if (msg.content === 'hi') {
     msg.reply('Pong!');
   }
   
-  
-   if(message.content==="in"){
-            message.guild.channels.get(`${message.channel.id}`).createInvite().then(invite => message.channel.sendMessage('http://discord.gg/' + invite.code));
-
-  }
-
-});
+  });
 
 
 
